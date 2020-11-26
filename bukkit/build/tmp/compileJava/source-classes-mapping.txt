@@ -1,0 +1,10 @@
+fr/minuskube/netherboard/bukkit/BPlayerBoard.java
+ fr.minuskube.netherboard.bukkit.BPlayerBoard
+ fr.minuskube.netherboard.bukkit.BPlayerBoard$ObjectiveMode
+fr/minuskube/netherboard/bukkit/NetherboardPlugin.java
+ fr.minuskube.netherboard.bukkit.NetherboardPlugin
+fr/minuskube/netherboard/Netherboard.java
+ fr.minuskube.netherboard.Netherboard
+fr/minuskube/netherboard/bukkit/util/NMS.java
+ fr.minuskube.netherboard.bukkit.util.NMS
+ fr.minuskube.netherboard.bukkit.util.NMS$Version

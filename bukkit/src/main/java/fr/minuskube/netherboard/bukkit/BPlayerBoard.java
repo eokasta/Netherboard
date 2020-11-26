@@ -4,6 +4,7 @@ import fr.minuskube.netherboard.Netherboard;
 import fr.minuskube.netherboard.api.PlayerBoard;
 import fr.minuskube.netherboard.bukkit.util.NMS;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.scoreboard.Objective;
 import org.bukkit.scoreboard.Scoreboard;
@@ -125,7 +126,7 @@ public class BPlayerBoard implements PlayerBoard<String, Integer, String> {
         for(int i = 0; i < lines.length; i++) {
             String line = lines[i];
 
-            set(line, lines.length - i);
+            set("§" + ChatColor.values()[i].getChar() + line, lines.length - i);
         }
 
         Set<Integer> scores = new HashSet<>(this.lines.keySet());
